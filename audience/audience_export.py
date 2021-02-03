@@ -15,5 +15,5 @@ class Audience:
 
 
 aud = Audience ("inital segment")
-print ("main function " + aud.segment + "   " + aud.campaign)
+print ("main function 2 " + aud.segment + "   " + aud.campaign)
 aud.export_audience()
