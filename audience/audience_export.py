@@ -13,5 +13,5 @@ class Audience:
 if __name__ == '__main__':
     print ("from main")
     aud = Audience("inital segment")
-    print ("remote branch 02032021 " + aud.segment + "   " + aud.campaign)
+    print ("bugfix 02032021 " + aud.segment + "   " + aud.campaign)
     aud.export_audience()
