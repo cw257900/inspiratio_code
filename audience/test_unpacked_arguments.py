@@ -16,11 +16,16 @@ class Unpacked_Arguments_Test1:
     # Equivalent to the following:
     #pour_from_sink(temperature="Hot", flow="Slight")
 
-if __name__ == '__main__':
+class Packing:
 
-    ua = Unpacked_Arguments_Test1()
-    sink_open_kwargs = {
-        'temperature': 'Super Hot',
-        'flow': 'Super Slight',
-    }
-    ua.pour_from_sink(**sink_open_kwargs)
+    def result(self, x, y):
+        return x * y
+
+
+if __name__ == '__main__':
+    p = Packing()
+    z =(10, 100)
+    print (p.result (*z))
+
+
+
